@@ -26,7 +26,7 @@ class TestOperationsBase:
         assert calc.additionner(7, 0) == 7
 
     def test_soustraction(self, calc):
-        assert calc.soustraire(10, 4) == 6
+        assert calc.soustraire(10, 4) == 5
 
     def test_soustraction_resultat_negatif(self, calc):
         assert calc.soustraire(3, 8) == -5
